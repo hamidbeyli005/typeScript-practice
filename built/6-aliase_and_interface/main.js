@@ -1,4 +1,4 @@
-var a = "Test";
+var str = "Test";
 var hamid = {
     name: "Hamid",
     surname: "Hamidbayli",

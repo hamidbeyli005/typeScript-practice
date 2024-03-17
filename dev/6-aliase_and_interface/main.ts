@@ -10,7 +10,7 @@ type Car = {
 
 
 type string_alias = string
-const a: string_alias = "Test"
+const str: string_alias = "Test"
 
 interface Human {
     name: string,
