@@ -25,12 +25,6 @@ function multiply_add() {
     }
     return nums.reduce(function (acc, num) { return acc + num; }, 0);
 }
-console.log("-----------");
-console.log(multiply_add(1)); // 1
-console.log(multiply_add(1, 2)); // 3
-console.log(multiply_add(1, 2, 3)); // 6
-console.log(multiply_add(1, 2, 3, 4)); // 10
-console.log("-----------");
 var negative_func = function (num) { return num * -1; };
 // console.log(negative_func("12"))         Argument of type 'string' is not assignable to parameter of type 'number'
 console.log(negative_func(12)); // -12   
