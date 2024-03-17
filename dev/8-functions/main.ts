@@ -32,7 +32,12 @@ function multiply_add(...nums: number[]): number {
     return nums.reduce((acc, num) => acc + num, 0)
 }
 
-
+console.log("-----------")
+console.log(multiply_add(1))                // 1
+console.log(multiply_add(1, 2))             // 3
+console.log(multiply_add(1, 2, 3))          // 6
+console.log(multiply_add(1, 2, 3, 4))       // 10
+console.log("-----------")
 
 
 type Negative = (num: number) => number
