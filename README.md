@@ -7,7 +7,7 @@ This repository contains various examples for practicing TypeScript. The project
 
 To get started with these examples, simply clone this repository to your local machine:
 
-git clone https://github.com/hamidbeyli005/typeScript-practice.git
+git clone https://github.com/hamidbeyli005/typescript-practice.git
 
 
 ## Usage
